@@ -1,0 +1,39 @@
+body {
+    background-color: #457B9D;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cat {
+    background-color: #E63946;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #1D3557; 
+    flex: 1;
+}
+
+
+
+@media (min-width : 960px) {
+    .cats {
+        display: flex; 
+    }
+}
+
+fieldset {
+    border: 0;
+    margin: 1em;
+}
+
+button {    
+    background-color: #59e639;
+    border: 3px solid #ffffff;
+    border-radius: 0.5em;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    margin: 1em;
+}
+
+input {
+    padding: 1em;
+}
