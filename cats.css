@@ -13,12 +13,9 @@ body {
 }
 
 
-
-
-
 fieldset {
     border: 0;
-    margin: 1em;
+    margin: 0.5em;
 }
 
 button {    
@@ -26,8 +23,8 @@ button {
     border: 3px solid #ffffff;
     border-radius: 0.5em;
     color: rgb(0, 0, 0);
-    padding: 1em;
-    margin: 1em;
+    padding: 1em; 
+    margin: 0.5em; 
 }
 
 input {
@@ -35,9 +32,19 @@ input {
 }
 
 
+@media screen and (max-width: 600px) { 
+    body {
+        background-color: lightblue;
+    }
+} 
+
+
 /* Styles for screens larger than 900px */
 @media screen and (min-width: 1200px) {
-    .cats {
-        display: flex; 
+    body {
+        background-color: lightyellow;
+        .cats {
+            display: flex;
+        }
     }
 }
