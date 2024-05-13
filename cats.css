@@ -14,11 +14,7 @@ body {
 
 
 
-@media (min-width : 960px) {
-    .cats {
-        display: flex; 
-    }
-}
+
 
 fieldset {
     border: 0;
@@ -36,4 +32,12 @@ button {
 
 input {
     padding: 1em;
+}
+
+
+/* Styles for screens larger than 900px */
+@media screen and (min-width: 1200px) {
+    .cats {
+        display: flex; 
+    }
 }
